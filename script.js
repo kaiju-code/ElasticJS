@@ -69,6 +69,7 @@ document.addEventListener("DOMContentLoaded", () => {
     scenes[3].addPlatform(new Platform("gold", 710, 50, 50, 30));
     
     scenes[4].addPlatform(new Platform("black", 32, 0, 32, 360));
+    scenes[4].addPlatform(new Platform("orange", 64, 320, 696, 40));
 
     let scene;
 
