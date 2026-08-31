@@ -40,7 +40,7 @@ document.addEventListener("DOMContentLoaded", () => {
                            new Scene(50, 150, 400, 10),
                            new Scene(50, 200, 600, 50),
                            new Scene(10, 1000, 350, 10)
-                           /* Add a custom scene here: new Scene(Floor Height, Player Speed, Player Jump Force, Player Gravity) */];
+                           new Scene(10, 150, 400, 10)];
 
     scenes[0].addPlatform(new Platform("red", 400, 260, 40, 100));
     scenes[0].addPlatform(new Platform("yellow", 500, 210, 40, 150));
@@ -67,14 +67,8 @@ document.addEventListener("DOMContentLoaded", () => {
     scenes[3].addPlatform(new Platform("turquoise", 710, 190, 50, 30));
     scenes[3].addPlatform(new Platform("turquoise", 64, 120, 50, 30));
     scenes[3].addPlatform(new Platform("gold", 710, 50, 50, 30));
-
-    /* 
-        Customise your custom scene over here, with the addPlatform function.
-
-        scenes[4].addPlatform(new Platform(Color, X, Y, Width, Height));
-
-        Add as many platforms as you'd like.
-    */
+    
+    scenes[4].addPlatform(new Platform("black", 32, 0, 32, 360));
 
     let scene;
 
