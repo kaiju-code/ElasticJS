@@ -39,7 +39,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const scenes = [new Scene(50, 200, 500, 10),
                            new Scene(50, 150, 400, 10),
                            new Scene(50, 200, 600, 50),
-                           new Scene(10, 1000, 350, 10)
+                           new Scene(10, 1000, 350, 10),
                            new Scene(10, 150, 400, 10)];
 
     scenes[0].addPlatform(new Platform("red", 400, 260, 40, 100));
